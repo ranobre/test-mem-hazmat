@@ -1,0 +1,41 @@
+{
+    "attributes": {
+        "hazmat": [
+            {
+                "name": "battery", 
+                "quantity": 2,
+                "properties":
+                [
+                  {
+                    "type": "battery_type",
+                    "values": ["lithium_ion", "lithium_metal"]
+                  },
+                  {
+                    "type": "sale_format",
+                    "values": ["contained_in_equipment","packed_with_equipment"]
+                  },
+                  {
+                    "type": "sale_number",
+                    "values": ["122345","333333"]
+                  }
+                ] 
+            },
+
+            {
+              "name": "aerosol", 
+              "quantity": 1,
+              "properties":
+              [
+                {
+                  "type": "volume",
+                  "values": ["100 ml"]
+                },
+                {
+                  "type": "package_type",
+                  "values": ["glass"]
+                }
+              ] 
+          }
+        ]
+    }
+}
